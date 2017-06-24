@@ -50,7 +50,7 @@ namespace ОбратнаяПольскаяНотация
         private void Q3(char input_sym)
         {
             operators.Pop();
-            operators.Pop();
+            //operators.Pop();
         }
 
         private void Q4(char input_sym)
