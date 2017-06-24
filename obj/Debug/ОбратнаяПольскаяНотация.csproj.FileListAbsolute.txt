@@ -6,3 +6,11 @@ c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПо�
 c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.csproj.GenerateResource.Cache
 c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.exe
 c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.pdb
+C:\Users\dadya_fedar\Desktop\Reverse-Polish-notation\bin\Debug\ОбратнаяПольскаяНотация.exe
+C:\Users\dadya_fedar\Desktop\Reverse-Polish-notation\bin\Debug\ОбратнаяПольскаяНотация.pdb
+C:\Users\dadya_fedar\Desktop\Reverse-Polish-notation\obj\Debug\ОбратнаяПольскаяНотация.csprojResolveAssemblyReference.cache
+C:\Users\dadya_fedar\Desktop\Reverse-Polish-notation\obj\Debug\ОбратнаяПольскаяНотация.Form1.resources
+C:\Users\dadya_fedar\Desktop\Reverse-Polish-notation\obj\Debug\ОбратнаяПольскаяНотация.Properties.Resources.resources
+C:\Users\dadya_fedar\Desktop\Reverse-Polish-notation\obj\Debug\ОбратнаяПольскаяНотация.csproj.GenerateResource.Cache
+C:\Users\dadya_fedar\Desktop\Reverse-Polish-notation\obj\Debug\ОбратнаяПольскаяНотация.exe
+C:\Users\dadya_fedar\Desktop\Reverse-Polish-notation\obj\Debug\ОбратнаяПольскаяНотация.pdb

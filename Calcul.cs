@@ -9,9 +9,16 @@ namespace ОбратнаяПольскаяНотация
     {
         Matrix matrix;
         string input;
+        string rpn = null;
+        bool work_end=true;
 
         Stack<double> digits = new Stack<double>();
         Stack<char> operators = new Stack<char>();
+
+        public event Action<double, string> EndProcedure;
+        public event Action Error;
+
+        char[] active_sym = new char[] { '+', '-', '*', '/' };
 
         public Calcul(string input)
         {
@@ -21,7 +28,15 @@ namespace ОбратнаяПольскаяНотация
 
         private void Q1(char input_sym)
         {
-            operators.Push(input_sym);
+            if ((operators.Peek() == '_' && digits.Count == 0 && active_sym.Contains(input_sym))||
+                (!(operators.Count>=digits.Count)))
+            {
+                error(input_sym);
+            }
+            else
+            {
+                operators.Push(input_sym);
+            }
         }
 
         private void Q2(char input_sym)
@@ -54,12 +69,14 @@ namespace ОбратнаяПольскаяНотация
 
         private void error(char input_sym)
         {
+            work_end = false;
             throw new Exception();
         }
 
         private void end(char input_sym)
         {
-            throw new Exception();
+            EndProcedure(digits.Pop(), rpn);
+            work_end = false;
         }
 
         private void Calculate(out double result)
@@ -69,6 +86,8 @@ namespace ОбратнаяПольскаяНотация
             double digit1=digits.Pop();
 
             char stack_sym = operators.Pop();
+
+            rpn += stack_sym.ToString();
 
             switch (stack_sym)
             {
@@ -89,6 +108,7 @@ namespace ОбратнаяПольскаяНотация
                     break;
                 default:
                     result = 0;
+                    throw new Exception();
                     break;
             }
         }
@@ -100,7 +120,7 @@ namespace ОбратнаяПольскаяНотация
 
             string push_digit=null;
 
-            while (input != null)
+            while (work_end&&input != null)
             {
                 int digit;
 
@@ -114,17 +134,28 @@ namespace ОбратнаяПольскаяНотация
                 }
                 else
                 {
-                    if(push_digit!=null) digits.Push(Convert.ToDouble(push_digit));
+                    if (push_digit != null)
+                    {
+                        digits.Push(Convert.ToDouble(push_digit));
+                        rpn += push_digit + " ";
+                    }
                     push_digit = null;
 
                     char input_sym = input[0];
-                    matrix.Trans(operators.Peek(), input_sym);
+
+                    try
+                    {
+                        matrix.Trans(operators.Peek(), input_sym);
+                    }
+                    catch
+                    {
+                        Error();
+                        break;
+                    }
                 }
 
                 input = input.Remove(0, 1);
             }
-
-            Console.ReadLine();
         }
     }
 }
