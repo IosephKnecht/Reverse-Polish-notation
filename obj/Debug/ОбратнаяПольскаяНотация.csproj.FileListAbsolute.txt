@@ -1,0 +1,8 @@
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\bin\Debug\ОбратнаяПольскаяНотация.exe
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\bin\Debug\ОбратнаяПольскаяНотация.pdb
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.csprojResolveAssemblyReference.cache
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.Form1.resources
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.Properties.Resources.resources
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.csproj.GenerateResource.Cache
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.exe
+c:\users\dadya_fedar\documents\visual studio 2017\Projects\ОбратнаяПольскаяНотация\ОбратнаяПольскаяНотация\obj\Debug\ОбратнаяПольскаяНотация.pdb
